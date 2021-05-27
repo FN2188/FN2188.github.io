@@ -1,0 +1,18 @@
+---
+layout: default
+skills:
+- Audio System Design and Integration
+- 3D Modeling and Pre-Viz
+- Audio Media Design/Mixing
+- Light Web Development and visual programming languages
+---
+
+<section class="skills container">
+  <h3>Technical Skills</h3>
+  <ul>
+    {% for skill in page.skills %}
+    <li><span class="skill">- {{skill}}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+<section id="sketch-container"></section>
